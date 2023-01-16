@@ -1,6 +1,6 @@
 # VideoRecordingApp
 
-This repository consists of a java application that records videos from USB-connected webcams based on a configurable scheduler. A graphical user interface enables easy termination of ongoing recordings. The app assumes a Linux OS; however the class that accesses webcams and starts and ends recordings can be replaced with alternatives compatible with a different OS. 
+This repository consists of a java application that records videos from USB-connected webcams based on a configurable scheduler. A graphical user interface enables easy termination of ongoing recordings. The app assumes a Linux OS; however the command that accesses webcams to start and end recordings can be replaced with alternatives compatible with a different OS. 
 
 ## Installation Guide:
 This application is intended to be cloned and run inside a Singularity build, but can also be run manually directly from the command line. After cloning the repository, the following steps can be followed to manually launch the app:
