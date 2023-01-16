@@ -27,6 +27,8 @@ For every individual recording, several files will be generated and stored in a 
 
 
 ## Citing and Authorship 
+If you use our code, please cite our Journal of Visualized Experiments [paper](https://www.jove.com/methods-collections/2119). 
+
 This repository was written by [Gabrielle Strandquist](https://github.com/strandquistg) and is overseen by [Jeffrey Herron](https://neurosurgery.uw.edu/bio/jeffrey-herron-phd). 
 
 ## Funding 
