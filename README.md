@@ -1,6 +1,9 @@
 # VideoRecordingApp
 
-This repository consists of a java application that records videos from USB-connected webcams based on a configurable scheduler. A graphical user interface enables easy termination of ongoing recordings. The app assumes a Linux OS; however the command that accesses webcams to start and end recordings can be replaced with alternatives compatible with a different OS. 
+## Overview:
+This application records videos to support an at-home multi-modal data collection platform to support neuromodulation research for people with neurodegenerative diseases. Recorded videos are processed to extract kinematic trajectories from joint position estimates in 2D or 3D. The kinematic data are time-aligned with neural and wearable-sensor recordings to allow clinicians and researchers to analyze movement quality and symptom severity from remote. 
+
+The code consists of a java application that records videos from USB-connected webcams based on a configurable scheduler. A graphical user interface enables easy termination of ongoing recordings. The app assumes a Linux OS; however the command that accesses webcams to start and end recordings can be replaced with alternatives compatible with a different OS. 
 
 ## Installation Guide:
 This application is intended to be cloned and run inside a Singularity build, but can also be run manually directly from the command line. After cloning the repository, the following steps can be followed to manually launch the app:
