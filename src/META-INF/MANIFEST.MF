@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: MainControlLoop
+Class-Path: ffmpeg-4.3.2-1.5.5.jar javacpp-1.5.5.jar quartz-2.2.1.jar sl
+  f4j-api-1.7.25.jar slf4j-jdk14-1.7.25.jar snakeyaml-1.28.jar org.eclip
+ s e.jgit-5.12.0.202106070339-r.jar jackson-databind-2.13.0-rc1.jar jack
+ so n-core-2.13.0-rc1.jar jackson-annotations-2.13.0-rc1.jar sentry-5.1.
+ 1.jar gson-2.8.5.jar
+

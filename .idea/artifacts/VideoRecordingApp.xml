@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="VideoRecordingApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/VideoRecordingApp</output-path>
+    <root id="root">
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0-rc1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0-rc1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0-rc1" />
+      <element id="library" level="project" name="Maven: io.sentry:sentry:5.1.1" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+      <element id="library" level="project" name="Maven: org.bytedeco:ffmpeg:4.3.2-1.5.5" />
+      <element id="library" level="project" name="Maven: org.bytedeco:javacpp:1.5.5" />
+      <element id="library" level="project" name="Maven: org.eclipse.jgit:org.eclipse.jgit:5.12.0.202106070339-r" />
+      <element id="library" level="project" name="Maven: org.quartz-scheduler:quartz:2.2.1" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.25" />
+      <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.28" />
+      <element id="archive" name="VideoRecordingApp.jar">
+        <element id="module-output" name="VideoRecordingApp" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
