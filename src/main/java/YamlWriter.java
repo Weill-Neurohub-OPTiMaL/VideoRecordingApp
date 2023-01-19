@@ -18,7 +18,7 @@ public class YamlWriter {
     public void writeRecordTimes() throws IOException {
         PrintWriter writer = new PrintWriter(new File("./src/main/resources/recordTimes.yml"));
         LinkedHashMap<String, LinkedHashMap> sessions = new LinkedHashMap<>();
-        sessions.put("session1", getSessionField(10, 0, 0, 0));
+        sessions.put("session1", getSessionField(11, 0, 0, 0));
         DumperOptions options = new DumperOptions();
         options.setDefaultFlowStyle(DumperOptions.FlowStyle.BLOCK);
         Yaml yaml = new Yaml(options);
