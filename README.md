@@ -13,7 +13,10 @@ After cloning the repository, the following steps will manually launch the app:
 * ffmpeg  
 * video4linux2
 
-2. Webcam location: Adjust the addresses of each webcam in the `cameraLocations.yml` file, located in `src/main/resources/`. The address of all USB webcams can be listed by opening a terminal and running `v4l2-ctl --list-devices`. More detailed information about an individual webcam (including it's codec, resolution and frame-rate capabilities) can be obtained by running `v4l2-ctl -d /dev/video# --list-formats-ext`
+2. Webcam location: Adjust the addresses of each webcam in the `cameraLocations.yml` file, located in `src/main/resources/`. 
+* In Linux, the address of all USB webcams can be listed by opening a terminal and running `v4l2-ctl --list-devices`. More detailed information about an individual webcam (including it's codec, resolution and frame-rate capabilities) can be obtained by running `v4l2-ctl -d /dev/video# --list-formats-ext`. 
+* In Windows, the address of all USB webcams can be listed by opening a terminal and running `ffmpeg -list_devices true -f dshow -i dummy`.
+
 
 3. Recording schedule: To set a desired recording schedule, adjust the times in the `recordTimes.yml` file located in `src/main/resources/`.
 
