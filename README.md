@@ -25,6 +25,8 @@ Adjust the _sp_ parameter in the [MainControlLoop.java](https://github.com/Weill
 
 5. From inside the base directory level of the repository, run the following: **java -jar out/artifacts/VideoRecordingApp/VideoRecordingApp.jar**
 
+**NOTE**: The jar file must be re-built prior to running the executable in order to reflect any changes made to the camera locations and recording times. This is currently in the process of being updated to enable users to run this code without needing to re-build the jar executable file every time a change is made to the camera address or recording schedule. 
+
 
 ## Output Structure:
 For every individual recording, several files will be generated and stored in a folder that is created at the time the video is scheduled to record. The folder has the naming convention `video#_datetime`, where the datetime has **millisecond-level precision**. Within that folder are the following files:
